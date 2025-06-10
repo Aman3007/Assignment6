@@ -52,3 +52,65 @@ button.refresh {
 button.refresh:hover {
     box-shadow: inset 5px 5px 5px black, inset -5px -5px 5px black;
 }
+
+@media (max-width: 575.98px) {
+    .container {
+        width: 85%;
+    }
+
+    .card h4 {
+        font-size: 2rem;
+    }
+
+    .card img {
+        width: 40%;
+    }
+
+    button.refresh {
+        width: 60px;
+        height: 60px;
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .container {
+        width: 60%;
+    }
+
+    .card h4 {
+        font-size: 3rem;
+    }
+
+    .card img {
+        width: 30%;
+    }
+
+    button.refresh {
+        width: 75px;
+        height: 75px;
+        font-size: 24px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .container {
+        width: 40%;
+    }
+
+    .card h4 {
+        font-size: 3.5rem;
+    }
+
+    .card img {
+        width: 25%;
+    }
+
+    button.refresh {
+        width: 80px;
+        height: 80px;
+        font-size: 26px;
+    }
+}
+
